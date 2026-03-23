@@ -4,8 +4,8 @@
   "categories": {
     "correctness": "error",
     "suspicious": "error",
-    "pedantic": "warn",
-    "style": "warn",
+    "pedantic": "off",
+    "style": "off",
   },
   "options": {
     "typeAware": true,
