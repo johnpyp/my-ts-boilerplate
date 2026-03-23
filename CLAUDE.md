@@ -21,7 +21,7 @@
 - Use vitest for tests (not `bun:test`)
   - Prefer integration tests with snapshots over tight unit tests
 - Use `cac` for clis
-- Use `upfetch` for fetch, creating reusable fetch clients
+- Use `up-fetch` for fetch, creating reusable fetch clients
 - Use `zod` for schema validation for external requests, environment variables, etc. Upfetch supports this natively as a `schema` param
 - Never type cast or use `any`, always make your types _flow_ naturally. If you have typecheck issues, you're probably modeling your types incorrectly. You can use `zod` to validate external data.
   - You can use `ts-invariant` to type narrow when the existing types can't validate something for you, instead of casting.
